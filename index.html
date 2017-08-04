@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</test>
+    </head>
+    <body>
+        <h1>Test</h1>
+        <div class="result">
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $.ajax({
+            type: 'GET',
+            url: 'http://http://trucks.autotrader.co.uk/rest/1.0/content/summaries',
+            timeout: 15000,
+            crossDomain: true,
+            headers: {
+                Accept: 'application/json; charset=utf-8',
+                'Content-Type': 'application/json; charset=utf-8'
+            }
+        });
+    </script>
+</html>
