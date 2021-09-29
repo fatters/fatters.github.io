@@ -1,0 +1,21 @@
+{
+  "title": "Matthew Allen",
+  "url": "https://matthewallen.ie",
+  "language": "en",
+  "description": "I am writing about my experiences as a dev.",
+  "feed": {
+    "subtitle": "I am writing about my experiences as a dev.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://matthewallen.ie"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://matthewallen.ie/feed/feed.json"
+  },
+  "author": {
+    "name": "Matthew Allen",
+    "email": "youremailaddress@example.com",
+    "url": "https://matthewallen.ie/about-me/"
+  }
+}
